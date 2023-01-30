@@ -8,8 +8,8 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cookieParser())
-import user from '../server/routes/user.js'
-import todo from '../server/routes/todo.js'
+import user from '../ProjetoooBackenddd/routes/user.js'
+import todo from '../ProjetoooBackenddd/routes/todo.js'
 
 app.use('/user', user)
 app.use('/todo', todo)
